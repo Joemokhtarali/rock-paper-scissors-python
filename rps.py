@@ -22,3 +22,9 @@ elif player2 == 'rock' and player1 == 'scissors':
 
 elif player2 == 'rock' and player1 == 'scissors':
 	print('player2 wins')
+
+elif player1 == player2:
+	print("It's a tie" )
+
+else:
+	print('something went wrong')
